@@ -8,7 +8,7 @@
 
 include 'player.php';
 
-
-$player1 = new basketballPlayer('aaa');
+$name = 'aaa';
+$player1 = new basketballPlayer($name);
 
 echo $player1->firstName;
