@@ -10,3 +10,6 @@ chmod +x phpunit.phar
 sudo mv phpunit.phar /usr/bin/phpunit
 wget https://phar.phpunit.de/phpunit.phar
 
+cd /var/www/
+composer install
+
